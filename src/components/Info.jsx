@@ -13,7 +13,9 @@ function Info() {
       </div>
       <div className="info--buttons">
         <button className="info--email"><i class="fa-solid fa-envelope"></i>Email</button>
-        <button className="info--linkedin"><i class="fa-brands fa-linkedin"></i>LinkedIn</button>
+        <form action="https://linkedin.com/in/robsassack">
+          <button className="info--linkedin" type="submit"><i class="fa-brands fa-linkedin"></i>LinkedIn</button>
+        </form>
       </div>
     </div>
   );
