@@ -12,10 +12,8 @@ function Info() {
         <h3 className="info--website">robsassack.github.io</h3>
       </div>
       <div className="info--buttons">
-        <button className="info--email"><i class="fa-solid fa-envelope"></i>Email</button>
-        <form action="https://linkedin.com/in/robsassack">
-          <button className="info--linkedin" type="submit"><i class="fa-brands fa-linkedin"></i>LinkedIn</button>
-        </form>
+        <a href="mailto:rsassack25@gmail.com" className="info--email"><button><i class="fa-solid fa-envelope"></i> Email</button></a>
+        <a href="https://linkedin.com/in/robsassack" className="info--linkedin"><button><i class="fa-brands fa-linkedin"></i> LinkedIn</button></a>
       </div>
     </div>
   );
